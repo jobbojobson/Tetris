@@ -1,0 +1,59 @@
+html, svg{
+    touch-action:manipulation;
+    font-family:helvetica;    
+}
+
+.pnlHidden {
+    display:none;
+}
+#gameCanvas { 
+    display:none; /* draw the canvas at runtime... */
+}
+
+.page-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.control-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.control-panel{
+    padding-top:10em;
+}
+
+.control-icon {
+    width:2em;
+    height:2em;
+}
+
+.control-button {
+    display:inline-block;
+    position:relative;
+    padding:2em;
+    margin-bottom:1em;
+    margin-left:1em;
+    background-color:#496600;
+    border-radius:5px;
+}
+.button-layer{
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+}
+
+.hang-left {
+    margin-right:5em;
+}
+
+.hang-right {
+    margin-left: 5em;
+    
+}
+
